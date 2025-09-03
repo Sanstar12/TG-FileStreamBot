@@ -28,12 +28,15 @@ func start(ctx *ext.Context, u *ext.Update) error {
 	}
 	ctx.Reply(u, `✨ Welcome to File Stream Bot ✨
 
-📂 I can help you convert Telegram files into direct download links and even generate streamable links.
+📂 I can help you convert Telegram files into direct download links and streamable watch links.
 
 ⚡ How to use me:
 1. Just send me any file 📥
-2. I’ll instantly give you a direct link and, if possible, a stream link 🎬
+2. I’ll instantly give you:
+   🔗 A direct **Download Link**  
+   🎬 A **Watch Link** (if supported)
 
 🔒 Don’t worry.. your files stay private and are only processed for you.`, nil)
+
 	return dispatcher.EndGroups
 }
