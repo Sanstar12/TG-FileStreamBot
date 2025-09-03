@@ -33,8 +33,8 @@ func start(ctx *ext.Context, u *ext.Update) error {
 ⚡ How to use me:
 1. Just send me any file 📥
 2. I’ll instantly give you:
-   🔗 A direct **Download Link**  
-   🎬 A **Watch Link** (if supported)
+   🔗 A direct Download Link
+   🎬 A Watch Link (if supported)
 
 🔒 Don’t worry.. your files stay private and are only processed for you.`, nil)
 
